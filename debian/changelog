@@ -1,0 +1,158 @@
+backdoor-factory (3.4.2-0parrot1) testing; urgency=medium
+
+  * Import into parrot
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 19 Jan 2017 16:50:23 +0100
+
+backdoor-factory (3.4.2-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release 
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 12 Jan 2017 15:51:02 +0100
+
+backdoor-factory (3.4.1-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 07 Jul 2016 11:53:05 +0200
+
+backdoor-factory (3.4.0-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 20 Jun 2016 10:09:08 +0200
+
+backdoor-factory (3.3.1-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+  * Drop the patch for pe signing (included upstream)
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 21 Dec 2015 11:20:08 +0100
+
+backdoor-factory (3.2.4-0kali2) kali-dev; urgency=medium
+
+  * Add pe code signing: add a depends on osslsigncode and patch pebin.py
+  
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 17 Dec 2015 15:23:51 +0100
+
+backdoor-factory (3.2.4-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 19 Nov 2015 09:17:43 +0100
+
+backdoor-factory (3.2.3-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 16 Nov 2015 11:30:42 +0100
+
+backdoor-factory (3.2.2-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 20 Oct 2015 09:26:13 +0200
+
+backdoor-factory (3.2.0-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+  * Drop depends on libcapstone3 (bug # 797870 is fixed)
+  * Update dates in debian/copyright
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 16 Oct 2015 14:26:39 +0200
+
+backdoor-factory (3.1.3-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+  * Add a depends on libcapstone3 to handle the debian bug on python-capstone
+    # 797870.
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 02 Sep 2015 10:32:12 +0200
+
+backdoor-factory (3.0.5-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 24 Jul 2015 11:39:57 +0200
+
+backdoor-factory (3.0.4-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 15 Jul 2015 09:22:51 +0200
+
+backdoor-factory (3.0.2-1kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 30 Apr 2015 15:43:49 -0400
+
+backdoor-factory (2.4.1-0kali2) kali; urgency=low
+
+  * Include the winapi directory
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 21 Feb 2015 11:31:19 -0500
+
+backdoor-factory (2.4.1-0kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 21 Feb 2015 09:54:25 -0500
+
+backdoor-factory (2.3.8-0kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 02 Jan 2015 06:25:41 -0500
+
+backdoor-factory (2.3.6-0kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 28 Dec 2014 12:47:06 -0500
+
+backdoor-factory (2.3.3-0kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 27 Dec 2014 15:58:25 -0500
+
+backdoor-factory (2.3.2-0kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 24 Dec 2014 10:59:25 -0500
+
+backdoor-factory (2.2.0+20141124-0kali2) kali; urgency=medium
+
+  * Remove depends libcapstone3
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 26 Nov 2014 10:54:50 +0100
+
+backdoor-factory (2.2.0+20141124-0kali1) kali; urgency=medium
+
+  * Import new upstream release
+  * Add depends: libcapstone3, python-capstone (>= 3) and python-pefile
+  * Change license according to upstream
+  * Add install new directories and files
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 24 Nov 2014 15:49:36 +0100
+
+backdoor-factory (2.0.6-0kali1) kali; urgency=low
+
+  * Imported new upstream release (Closes: 0001035)
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 17 Feb 2014 10:30:41 -0700
+
+backdoor-factory (1.0+git20140118) kali; urgency=low
+
+  * Update from upstream
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 18 Jan 2014 09:46:58 -0500
+
+backdoor-factory (1.0+git20131021-1kali0) kali; urgency=low
+
+  * Initial release (Closes: 0000655)  
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 21 Oct 2013 11:25:07 -0600
